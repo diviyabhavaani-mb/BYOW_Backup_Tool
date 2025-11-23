@@ -57,6 +57,8 @@ No user authentication model (focus is on encryption only)
 No network transmission layer included (local backup only)
 
 🧪 **Test Summary**
+
+
 Test	Expected	Result
 Encrypt → Decrypt	Plaintext restored correctly	✔ PASS
 Tamper ciphertext	Decryption fails	✔ PASS
