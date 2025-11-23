@@ -3,21 +3,22 @@
 A lightweight, AES-GCM–based encrypted backup system built for the Build Your Own HW (BYOW) security engineering assignment.
 This project includes a full Google Colab notebook, working prototype code, security evaluation, and documentation.
 
-📌** Project Overview**
+📌**Project Overview**
 
 This project demonstrates a secure file-backup workflow using authenticated encryption (AEAD).
+
 It is designed as a teaching/demo tool illustrating:
 
-Symmetric encryption using AES-256-GCM
-Integrity protection via AEAD authentication tags
-Secure nonce handling
-Tamper detection
-Optional alternative algorithm: ChaCha20-Poly1305
-Simple file-based backup simulation
+1.Symmetric encryption using AES-256-GCM
+2.Integrity protection via AEAD authentication tags
+3.Secure nonce handling
+4.Tamper detection
+5.Optional alternative algorithm: ChaCha20-Poly1305
+6.Simple file-based backup simulation
 
 This prototype runs in Google Colab, making it easy to execute without local setup.
 
-🚀** Features**
+🚀**Features**
 
 Core
 🔐 AES-256-GCM encryption (confidentiality + integrity)
